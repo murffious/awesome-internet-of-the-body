@@ -1,5 +1,9 @@
 # Awesome Internet of the Body [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
+<p align="center">
+  <img src="assets/banner.png" alt="Awesome Internet of the Body — a curated map of the apps and platforms that gather human data" width="840">
+</p>
+
 > A curated list of apps, platforms, devices, and open-source projects that **gather human data** — the "Internet of the Body" (IoB).
 
 The **Internet of the Body** (or *Internet of Bodies*, IoB) — a term coined by
