@@ -71,6 +71,7 @@ Second-generation sensors that read the body's chemistry in near-real time.
 - 🟢 [Nightscout](https://github.com/nightscout/cgm-remote-monitor) — the "#WeAreNotWaiting" project: a self-hosted CGM data platform where you own the server and the data. `live`
 - 🟢 [OpenAPS](https://github.com/openaps) — open-source "artificial pancreas" reference design that closes the loop between CGM and insulin pump. `live`
 - 🟢 [Loop](https://github.com/LoopKit/Loop) — open-source automated insulin-delivery app for iOS built on the same idea. `live`
+- ⚪ [Lura Health](https://lurahealth.com/) — Continuous Salivary Monitoring (CSM) sensor embedded in a tooth-mounted device that tracks biomarkers in saliva for non-invasive, preventative health management. `live`
 
 ## Sleep and recovery
 
