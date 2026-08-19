@@ -14,7 +14,7 @@ This list catalogs the software and hardware that does the measuring, with a bia
 >
 > Legend — openness: 🟢 open source, 🔵 open standard / SDK, ⚪ commercial / proprietary. Cadence (how you consume it): `live` real-time / streaming / webhook, `snapshot` point-in-time or one-time export, `live + history` a live-ish feed plus a historical archive. Standards, SDKs, and tooling carry either mode, so they are left untagged.
 >
-> **245 entries** across 36 categories (excludes Related projects).
+> **246 entries** across 36 categories (excludes Related projects).
 
 ## Contents
 
