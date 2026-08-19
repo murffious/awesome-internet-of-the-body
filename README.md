@@ -57,6 +57,7 @@ This list catalogs the software and hardware that does the measuring, with a bia
 - [Security and privacy research](#security-and-privacy-research)
 - [Datasets and open-source resources](#datasets-and-open-source-resources)
 - [Privacy, ethics and data ownership](#privacy-ethics-and-data-ownership)
+- [Newsletters](#newsletters)
 - [Related projects](#related-projects)
 
 
@@ -521,6 +522,10 @@ Body data is the most sensitive data there is. Any honest IoB list must point he
 - ⚪ [World Economic Forum — The Internet of Bodies Is Here](https://www.weforum.org/publications/the-internet-of-bodies-is-here-tackling-new-challenges-of-technology-governance/) — WEF report on IoB governance challenges.
 
 Further reading: the [Purdue Center for the Internet of Bodies](https://engineering.purdue.edu/C-IoB) and the [RAND report on the Internet of Bodies](https://www.rand.org/pubs/research_reports/RR3226.html). And questions worth asking of any entry above: where does the data live, can you export or delete it, who can it be sold or subpoenaed to, and what happens to it if the company folds? (The 23andMe collapse is the canonical worked example.)
+
+## Newsletters
+
+- [Wearable Healthcare AI](https://www.linkedin.com/newsletters/wearable-healthcare-ai-7340505300036177922/) - Explores how consumer and clinical-grade wearables and AI are transforming Healthcare.
 
 ## Related projects
 
