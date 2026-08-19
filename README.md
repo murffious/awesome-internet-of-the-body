@@ -13,6 +13,8 @@ This list catalogs the software and hardware that does the measuring, with a bia
 > This is a reference index, not medical advice and not an endorsement. Every device here collects sensitive personal data — read the Privacy, ethics and data ownership section before you trust any of them.
 >
 > Legend — openness: 🟢 open source, 🔵 open standard / SDK, ⚪ commercial / proprietary. Cadence (how you consume it): `live` real-time / streaming / webhook, `snapshot` point-in-time or one-time export, `live + history` a live-ish feed plus a historical archive. Standards, SDKs, and tooling carry either mode, so they are left untagged.
+>
+> **58 entries** across 11 categories (excludes Related projects).
 
 ## Contents
 
@@ -36,7 +38,7 @@ Matwyshyn describes three generations, a useful mental map. Generation 1 (extern
 
 An entry belongs on this list if it measures a human (physiology, biometrics, behavior, or -omics) and moves that data somewhere — an app, a cloud, or your own server.
 
-## Wearables and rings
+## Wearables and rings `11`
 
 External, first-generation devices — the largest source of everyday human data.
 
@@ -52,7 +54,7 @@ External, first-generation devices — the largest source of everyday human data
 - ⚪ [Google Pixel Watch](https://store.google.com/category/watches) — Wear OS smartwatch with multi-modal biosensing (heart rate, ECG, sleep architecture, activity) integrated via Health Connect and the Fitbit API. `live + history`
 - 🟢 [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) — Android app that talks to many fitness bands and watches without the vendor cloud, keeping data local. A cornerstone open-source IoB project. `live + history`
 
-## Aggregator and integration APIs
+## Aggregator and integration APIs `5`
 
 The purest expression of "consume human data via app integrations" — one integration that normalizes many devices into a single schema.
 
@@ -62,7 +64,7 @@ The purest expression of "consume human data via app integrations" — one integ
 - ⚪ [Rook](https://www.tryrook.io/) — health-data API unifying wearables and sensors into a single normalized model. `live + history`
 - ⚪ [Validic](https://validic.com/) — enterprise platform connecting clinical programs to consumer health devices and apps. `live + history`
 
-## Continuous glucose and metabolic
+## Continuous glucose and metabolic `13`
 
 Second-generation sensors that read the body's chemistry in near-real time.
 
@@ -80,7 +82,7 @@ Second-generation sensors that read the body's chemistry in near-real time.
 - 🟢 [Loop](https://github.com/LoopKit/Loop) — open-source automated insulin-delivery app for iOS built on the same idea. `live`
 - ⚪ [Lura Health](https://lurahealth.com/) — Continuous Salivary Monitoring (CSM) sensor embedded in a tooth-mounted device that tracks biomarkers in saliva for non-invasive, preventative health management. `live`
 
-## Sleep and recovery
+## Sleep and recovery `3`
 
 - ⚪ [Eight Sleep](https://www.eightsleep.com/) — sensor mattress cover tracking temperature, heart rate, and HRV. `live + history`
 - ⚪ [Happy Sleep](https://www.happysleep.com/) — smart ring platform for multi-night at-home sleep apnea testing and virtual care. `live + history`
@@ -88,7 +90,7 @@ Second-generation sensors that read the body's chemistry in near-real time.
 
 Oura, WHOOP, and Withings (above) all double as sleep trackers.
 
-## Open-source health-data tooling
+## Open-source health-data tooling `5`
 
 Projects you can read, run, and self-host. Nightscout and Gadgetbridge (above) also belong here.
 
@@ -98,7 +100,7 @@ Projects you can read, run, and self-host. Nightscout and Gadgetbridge (above) a
 - 🟢 [CareKit](https://github.com/carekit-apple/CareKit) — Apple's open framework for care and symptom-tracking apps.
 - 🟢 [Fit REST API samples](https://github.com/googlearchive/fit-samples) — reference code for reading Google fitness data.
 
-## Personal data platforms and Quantified Self
+## Personal data platforms and Quantified Self `3`
 
 Platforms whose whole purpose is aggregating your body data — for yourself or for research.
 
@@ -106,7 +108,7 @@ Platforms whose whole purpose is aggregating your body data — for yourself or 
 - ⚪ [Exist.io](https://exist.io/) — correlates data from many trackers to surface patterns. `live + history`
 - 🟢 [Quantified Self](https://quantifiedself.com/) — the movement that named "self-knowledge through numbers"; see the community's [tools directory](https://quantifiedself.com/tools/).
 
-## Health-data standards and SDKs
+## Health-data standards and SDKs `3`
 
 The plumbing that lets body data move between systems — what makes IoB an internet.
 
@@ -116,7 +118,7 @@ The plumbing that lets body data move between systems — what makes IoB an inte
 
 Apple HealthKit and Google Health Connect (both above) are the two dominant on-device SDKs.
 
-## Genomics, microbiome and omics
+## Genomics, microbiome and omics `5`
 
 Slower-moving but deeply personal body data.
 
@@ -126,7 +128,7 @@ Slower-moving but deeply personal body data.
 - ⚪ [Viome](https://www.viome.com/) — microbiome and metabolic testing tied to a nutrition app. `snapshot`
 - ⚪ [ZOE](https://zoe.com/) — microbiome and blood-fat testing paired with personalized nutrition. `snapshot`
 
-## Neuro, brain-computer and implantables
+## Neuro, brain-computer and implantables `5`
 
 Third-generation, melded devices — the frontier, and the sharpest ethics.
 
@@ -136,7 +138,7 @@ Third-generation, melded devices — the frontier, and the sharpest ethics.
 - ⚪ [Synchron](https://synchron.com/) — endovascular BCI implanted via blood vessels, with no open-skull surgery. `live`
 - ⚪ [Medtronic](https://www.medtronic.com/) — connected pacemakers, insulin pumps, and neurostimulators; a huge share of real-world "generation 2" IoB. `live + history`
 
-## Nutrition and food logging
+## Nutrition and food logging `3`
 
 Apps that log what goes into the body — the input side of the human-data picture.
 
@@ -144,7 +146,7 @@ Apps that log what goes into the body — the input side of the human-data pictu
 - ⚪ [Cronometer](https://cronometer.com/) — micronutrient-accurate food and biometric logging with an [API](https://cronometer.com/api/). `live + history`
 - ⚪ [MyFitnessPal](https://www.myfitnesspal.com/) — large-scale food and exercise logging. `live + history`
 
-## Privacy, ethics and data ownership
+## Privacy, ethics and data ownership `2`
 
 Body data is the most sensitive data there is. Any honest IoB list must point here.
 
