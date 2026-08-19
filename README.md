@@ -76,6 +76,7 @@ Second-generation sensors that read the body's chemistry in near-real time.
 ## Sleep and recovery
 
 - ⚪ [Eight Sleep](https://www.eightsleep.com/) — sensor mattress cover tracking temperature, heart rate, and HRV. `live + history`
+- ⚪ [Happy Sleep](https://www.happysleep.com/) — smart ring platform for multi-night at-home sleep apnea testing and virtual care. `live + history`
 - ⚪ [Sleep as Android](https://sleep.urbandroid.org/) — sleep tracking that integrates with many wearables. `live + history`
 
 Oura, WHOOP, and Withings (above) all double as sleep trackers.
