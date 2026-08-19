@@ -48,6 +48,8 @@ External, first-generation devices — the largest source of everyday human data
 - ⚪ [Fitbit](https://www.fitbit.com/) — steps, heart rate, and sleep, with a [Web API](https://dev.fitbit.com/build/reference/web-api/). `live + history`
 - ⚪ [Withings](https://www.withings.com/) — scales, blood-pressure cuffs, and sleep mats, with a [developer API](https://developer.withings.com/). `live + history`
 - ⚪ [Biostrap](https://biostrap.com/) — research-grade PPG wearable (wrist and shoe pod) with raw waveform access and a developer API. `live + history`
+- ⚪ [Sennheiser Momentum Sport](https://www.sennheiser-hearing.com/) — biometric earbuds (hearables) for athletes tracking heart rate via PPG and body temperature via a thermal sensor. `live`
+- ⚪ [Google Pixel Watch](https://store.google.com/category/watches) — Wear OS smartwatch with multi-modal biosensing (heart rate, ECG, sleep architecture, activity) integrated via Health Connect and the Fitbit API. `live + history`
 - 🟢 [Gadgetbridge](https://github.com/Freeyourgadget/Gadgetbridge) — Android app that talks to many fitness bands and watches without the vendor cloud, keeping data local. A cornerstone open-source IoB project. `live + history`
 
 ## Aggregator and integration APIs
@@ -64,8 +66,13 @@ The purest expression of "consume human data via app integrations" — one integ
 
 Second-generation sensors that read the body's chemistry in near-real time.
 
-- ⚪ [Dexcom](https://www.dexcom.com/) — CGM with a [developer API](https://developer.dexcom.com/). `live`
-- ⚪ [Abbott FreeStyle Libre](https://www.freestyle.abbott/) — widely used CGM. `live`
+- ⚪ [Dexcom G7](https://www.dexcom.com/) — prescription CGM (FDA cleared) for individuals 2+; 10-day wear, 8.2% MARD, 5-min readings, predictive hypoglycemia alerts, insulin-pump integration. `live`
+- ⚪ [Dexcom Stelo](https://www.stelo.com/) — OTC CGM (FDA cleared) for adults 18+ (wellness, prediabetes, non-insulin Type 2); 15-day wear, 8.3% MARD, 15-min readings. `live`
+- ⚪ [Abbott FreeStyle Libre 3 Plus](https://www.freestyle.abbott/) — prescription CGM (FDA cleared) for individuals 2+; 15-day wear, 8.2% MARD, 1-min readings, pump integration, penny-sized sensor. `live`
+- ⚪ [Abbott Lingo](https://www.hellolingo.com/) — OTC CGM (FDA cleared) for adults 18+ focused on general wellness and diet/exercise biofeedback; 14-day wear, 1-min readings, Withings integration. `live`
+- ⚪ [Abbott Libre Rio](https://www.abbott.com/en-us/products-solutions/biowearables) — OTC CGM (FDA cleared) for non-insulin-dependent Type 2 adults; 15-day wear (pending launch). `live`
+- ⚪ [Medtronic MiniMed Instinct](https://www.medtronicdiabetes.com/) — CGM (FDA cleared) for automated insulin delivery users, manufactured by Abbott; 15-day wear, no calibration required. `live`
+- ⚪ [Medtronic MiniMed Simplera Sync](https://www.minimed.com/) — CGM (FDA cleared) for individuals 7+; 6-day wear, fully disposable with no overtape, SmartGuard prediction, 5-min readings. `live`
 - ⚪ [Levels](https://www.levelshealth.com/) — metabolic-health app built on top of CGM hardware. `live + history`
 - ⚪ [Nutrisense](https://www.nutrisense.io/) — CGM-based metabolic tracking with dietitian support. `live + history`
 - 🟢 [Nightscout](https://github.com/nightscout/cgm-remote-monitor) — the "#WeAreNotWaiting" project: a self-hosted CGM data platform where you own the server and the data. `live`
@@ -124,6 +131,7 @@ Slower-moving but deeply personal body data.
 Third-generation, melded devices — the frontier, and the sharpest ethics.
 
 - 🟢 [OpenBCI](https://github.com/OpenBCI) — open-source hardware and software for EEG, EMG, and ECG biosensing. The accessible on-ramp to neural IoB. `live`
+- ⚪ [OpenBCI Galea](https://openbci.com/) — mixed-reality biosensing headset integrating EEG, EMG, and ECG with Meta Quest 3 for developer and research use. `live`
 - ⚪ [Neuralink](https://neuralink.com/) — implanted brain-computer interface. `live`
 - ⚪ [Synchron](https://synchron.com/) — endovascular BCI implanted via blood vessels, with no open-skull surgery. `live`
 - ⚪ [Medtronic](https://www.medtronic.com/) — connected pacemakers, insulin pumps, and neurostimulators; a huge share of real-world "generation 2" IoB. `live + history`
