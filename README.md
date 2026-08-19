@@ -217,6 +217,7 @@ Third-generation, melded devices — the frontier, and the sharpest ethics.
 Apps that log what goes into the body — the input side of the human-data picture.
 
 - 🟢 [Open Food Facts](https://github.com/openfoodfacts) — open, crowd-sourced database of foods and their labels ([openfoodfacts.org](https://world.openfoodfacts.org/)).
+- ⚪ [MealCoach.ai](https://mealcoach.ai/) — treating nutrition like a metabolic credit score. 
 - ⚪ [Cronometer](https://cronometer.com/) — micronutrient-accurate food and biometric logging with an [API](https://cronometer.com/api/). `live + history`
 - ⚪ [MyFitnessPal](https://www.myfitnesspal.com/) — large-scale food and exercise logging. `live + history`
 
