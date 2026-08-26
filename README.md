@@ -14,7 +14,7 @@ This list catalogs the software and hardware that does the measuring, with a bia
 >
 > Legend — openness: 🟢 open source, 🔵 open standard / SDK, ⚪ commercial / proprietary. Cadence (how you consume it): `live` real-time / streaming / webhook, `snapshot` point-in-time or one-time export, `live + history` a live-ish feed plus a historical archive. Standards, SDKs, and tooling carry either mode, so they are left untagged.
 >
-> **246 entries** across 36 categories (excludes Related projects).
+> **247 entries** across 36 categories (excludes Related projects).
 
 ## Contents
 
@@ -461,6 +461,7 @@ Devices that track basal body temperature or hormones to support fertility aware
 - ⚪ [Tempdrop](https://www.tempdrop.com/) — Wearable overnight basal-body-temperature sensor for fertility tracking. `live + history`
 - ⚪ [OvuSense](https://www.ovusense.com/) — Continuous core-body-temperature sensor for ovulation tracking. `live + history`
 - ⚪ [Femometer](https://www.femometer.com/) — Connected basal thermometer and fertility-tracking ecosystem. `live + history`
+- ⚪ [Eli Health](https://www.elihealth.com/) — Noninvasive wearable for continuous hormone tracking (LH, progesterone, estrogen) via saliva. `live + history`
 
 ## Regulatory and policy
 
