@@ -14,7 +14,7 @@ This list catalogs the software and hardware that does the measuring, with a bia
 >
 > Legend — openness: 🟢 open source, 🔵 open standard / SDK, ⚪ commercial / proprietary. Cadence (how you consume it): `live` real-time / streaming / webhook, `snapshot` point-in-time or one-time export, `live + history` a live-ish feed plus a historical archive. Standards, SDKs, and tooling carry either mode, so they are left untagged.
 >
-> **246 entries** across 36 categories (excludes Related projects).
+> **247 entries** across 36 categories (excludes Related projects).
 
 ## Contents
 
@@ -198,6 +198,7 @@ Slower-moving but deeply personal body data.
 Third-generation, melded devices — the frontier, and the sharpest ethics.
 
 - 🟢 [OpenBCI](https://github.com/OpenBCI) — open-source hardware and software for EEG, EMG, and ECG biosensing. The accessible on-ramp to neural IoB. `live`
+- ⚪ [Atlas](https://atlasmankind.com/) — Behind-the-ear brain wearable combining EEG, electrodermal activity, motion, and voice-pattern sensing to estimate attention and recovery; early preorder stage and iOS-only launch, with no independent validation yet. `snapshot`
 - ⚪ [OpenBCI Galea](https://openbci.com/) — mixed-reality biosensing headset integrating EEG, EMG, and ECG with Meta Quest 3 for developer and research use. `live`
 - ⚪ [Neuralink](https://neuralink.com/) — implanted brain-computer interface. `live`
 - ⚪ [Synchron](https://synchron.com/) — endovascular BCI implanted via blood vessels, with no open-skull surgery. `live`
