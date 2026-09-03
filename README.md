@@ -4,6 +4,10 @@
   <img src="assets/banner.png" alt="Awesome Internet of the Body — a curated map of the apps and platforms that gather human data" width="840">
 </p>
 
+> About: A curated catalog of wearable sensors, implants, health-data APIs, and open-source tools for the Internet of the Body (IoB): devices and platforms that measure people and move biometric data across apps, clouds, and networks.
+>
+> Topics: `internet-of-the-body`, `iob`, `wearables`, `biosensors`, `digital-health`, `health-data`, `quantified-self`, `open-source`, `neurotechnology`, `medical-devices`, `health-api`, `personal-data`
+
 > A curated list of apps, platforms, devices, and open-source projects that gather human data — the "Internet of the Body" (IoB).
 
 The Internet of the Body (or Internet of Bodies, IoB) — a term coined by Andrea M. Matwyshyn in 2016 — describes "a network of human bodies whose integrity and functionality rely at least in part on the internet and related technologies." In plain terms: the growing web of wearables, implants, sensors, and apps that measure a human being and move that data across a network.
