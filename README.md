@@ -159,6 +159,7 @@ Projects you can read, run, and self-host. Nightscout and Gadgetbridge (above) a
 
 Platforms whose whole purpose is aggregating your body data — for yourself or for research.
 
+- ⚪ [CareClinic](https://careclinic.io/getting-started/health-integrations/) — personal health journal combining user-entered symptoms, medications, mood, and routines with consented Apple Health, Google Fit, Health Connect, and Fitbit data for reports and correlations. `live + history`
 - 🟢 [Open Humans](https://github.com/OpenHumans) — nonprofit platform ([openhumans.org](https://www.openhumans.org/)) to aggregate personal data (wearables, genomes, microbiome) and optionally donate it to research. The most IoB-native open project here. `snapshot`
 - ⚪ [Exist.io](https://exist.io/) — correlates data from many trackers to surface patterns. `live + history`
 - 🟢 [Quantified Self](https://quantifiedself.com/) — the movement that named "self-knowledge through numbers"; see the community's [tools directory](https://quantifiedself.com/tools/).
