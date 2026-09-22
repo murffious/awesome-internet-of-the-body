@@ -23,6 +23,7 @@ This list catalogs the software and hardware that does the measuring, with a bia
 ## Contents
 
 - [What counts as the Internet of the Body](#what-counts-as-the-internet-of-the-body)
+- [Body site matters: pick the sensor location for the biomarker](#body-site-matters-pick-the-sensor-location-for-the-biomarker)
 - [Wearables and rings](#wearables-and-rings)
 - [Aggregator and integration APIs](#aggregator-and-integration-apis)
 - [Continuous glucose and metabolic](#continuous-glucose-and-metabolic)
@@ -70,6 +71,19 @@ This list catalogs the software and hardware that does the measuring, with a bia
 Matwyshyn describes three generations, a useful mental map. Generation 1 (external) devices are worn on the body — smartwatches, rings, chest straps, smart glasses. Generation 2 (internal) devices sit inside it — pacemakers, cochlear implants, digital pills, insulin pumps. Generation 3 (melded) devices merge with the body while staying online — experimental brain-computer interfaces and smart prosthetics wired to nerves.
 
 An entry belongs on this list if it measures a human (physiology, biometrics, behavior, or -omics) and moves that data somewhere — an app, a cloud, or your own server.
+
+## Body site matters: pick the sensor location for the biomarker
+
+Different body sites expose different physiology, so there is no universal "best" sensor location. In practice, choose the site based on the biomarker you need, expected motion, and comfort/compliance.
+
+- **Temple / forehead** — stable superficial perfusion in some contexts; often useful for heart rate, HRV, sleep/autonomic trends, and potential neuro-linked signals.
+- **Ear (earlobe / ear canal)** — rich vascular bed and thin tissue; often strong for heart rate, SpO₂, HRV, and potential cuffless blood-pressure features.
+- **Chest (upper torso)** — close to central circulation with less peripheral motion; commonly preferred for heart rate, HRV, respiratory signals, and cardiovascular estimation.
+- **Upper arm** — deeper/softer tissue and larger vessels; used for heart rate and SpO₂, and increasingly explored for blood-pressure and multi-biomarker designs.
+- **Wrist** — most convenient and most adopted form factor; excellent for daily heart rate, SpO₂, and activity, but motion/perfusion can limit advanced biomarker quality.
+- **Fingertip** — high perfusion and thin optical path; very strong for spot heart rate/SpO₂ and reference measurements.
+
+Signal quality depends on vascularity/perfusion, tissue composition, sensor wavelength and geometry, motion, temperature/environment, and individual differences (for example skin tone, age, and anatomy).
 
 ## Wearables and rings
 
